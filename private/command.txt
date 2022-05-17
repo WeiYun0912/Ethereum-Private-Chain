@@ -1,0 +1,27 @@
+bnode(讓互不認識的節點認識): bootnode -nodekey "./boot.key" -verbosity 7 -addr "127.0.0.1:30301"
+
+node1 : geth --networkid 14333 --datadir "./data" --bootnodes enode://1b5ebf3079d49728f34a1307ccd81af0468aa133fb9625043ef7a27b6127fdccc4674fb6910935feae9a8c36504bb4429c26175c96518cdb70e97b5fb8941ada@127.0.0.1:30301 --port 30303 --ipcdisable --syncmode full --rpc --allow-insecure-unlock --rpccorsdomain "*" --rpcport 8545 --unlock 0x9a1a47B8c0f636b578bD3DE685058587ca30310c --password password.txt --mine console
+
+node2 : geth --networkid 14333 --datadir "./data" --bootnodes enode://1b5ebf3079d49728f34a1307ccd81af0468aa133fb9625043ef7a27b6127fdccc4674fb6910935feae9a8c36504bb4429c26175c96518cdb70e97b5fb8941ada@127.0.0.1:30301 --port 30304 --ipcdisable --syncmode full --rpc --allow-insecure-unlock --rpccorsdomain "*" --rpcport 8546 --unlock 0x1B169c54E4DFFfbe750D1ceB0800326a40D0A8E1 --password password.txt --mine console
+
+node3 : geth --networkid 14333 --datadir "./data" --bootnodes enode://1b5ebf3079d49728f34a1307ccd81af0468aa133fb9625043ef7a27b6127fdccc4674fb6910935feae9a8c36504bb4429c26175c96518cdb70e97b5fb8941ada@127.0.0.1:30301 --port 30305 --ipcdisable --syncmode full --rpc --allow-insecure-unlock --rpccorsdomain "*" --rpcport 8547 --unlock 0xD4af160115aD2Cfc4fBB1a4F64cB92F57f03F389 --password password.txt --mine console
+
+
+
+clique.getSigners() 取得認證節點
+
+
+miner.start() 開始挖礦
+
+miner.stop() 停止挖礦
+
+要是認證節點有2個的話 兩個節點都必須挖礦 要是有一個沒有啟動挖礦 另外一個就會進入等待模式(取得的背書不夠)
+
+web3.fromWei(eth.getBalance(eth.accounts[0]),'ether') 查看帳戶1的以太幣
+
+clique.propose(address,true) 提名新的認證節點 要是有兩個節點的話 兩個節點都必須執行該指令 類似投票 必須過50% 並且啟動挖礦才能打包區塊
+
+clique.propose(address,false) 移除認證節點 也必須要兩個節點都執行 並且啟動挖礦才能打包區塊
+
+eth.sendTransaction({from : eth.accounts[0], to : "0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389" , value : web3.toWei(5,"ether")})
+發transaction (送錢到某帳戶)

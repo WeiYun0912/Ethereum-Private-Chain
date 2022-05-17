@@ -1,0 +1,174 @@
+eth.accounts
+miner.start()
+eth.getBalance(eth.accounts[0])eth.getBalance(eth.accounts[0])eth.getBalance(eth.accounts[0])eth.getBalance(eth.accounts[0])eth.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[0])
+eth.coinbase
+eth.accounts
+var abi = [
+{
+"constant": false,
+"inputs": [
+{
+"name": "x",
+"type": "uint256"
+}
+],
+"name": "set",
+"outputs": [],
+"payable": false,
+"stateMutability": "nonpayable",
+"type": "function"
+}
+bytecode = "0x{"
+"linkReferences": {},
+"object": "6080604052348015600f57600080fd5b5060a48061001e6000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806360fe47b1146044575b600080fd5b348015604f57600080fd5b50606c60048036038101908080359060200190929190505050606e565b005b80600081905550505600a165627a7a72305820899e31f8af3fd6e5a00d3fb21218d224d9a270cef8eeef3867aaf39bebaf8f5a0029",
+"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xA4 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3F JUMPI PUSH1 0x0 CALLDATALOAD PUSH29 0x100000000000000000000000000000000000000000000000000000000 SWAP1 DIV PUSH4 0xFFFFFFFF AND DUP1 PUSH4 0x60FE47B1 EQ PUSH1 0x44 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x4F JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x6C PUSH1 0x4 DUP1 CALLDATASIZE SUB DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH1 0x6E JUMP JUMPDEST STOP JUMPDEST DUP1 PUSH1 0x0 DUP2 SWAP1 SSTORE POP POP JUMP STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 DUP10 SWAP15 BALANCE 0xf8 0xaf 0x3f 0xd6 0xe5 LOG0 0xd 0x3f 0xb2 SLT XOR 0xd2 0x24 0xd9 LOG2 PUSH17 0xCEF8EEEF3867AAF39BEBAF8F5A00290000 ",
+"sourceMap": "28:106:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:106:0;;;;;;;"
+}
+bytecode
+bytecode = {
+"linkReferences": {},
+"object": "6080604052348015600f57600080fd5b5060a48061001e6000396000f300608060405260043610603f576000357c0100000000000000000000000000000000000000000000000000000000900463ffffffff16806360fe47b1146044575b600080fd5b348015604f57600080fd5b50606c60048036038101908080359060200190929190505050606e565b005b80600081905550505600a165627a7a72305820899e31f8af3fd6e5a00d3fb21218d224d9a270cef8eeef3867aaf39bebaf8f5a0029",
+"opcodes": "PUSH1 0x80 PUSH1 0x40 MSTORE CALLVALUE DUP1 ISZERO PUSH1 0xF JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0xA4 DUP1 PUSH2 0x1E PUSH1 0x0 CODECOPY PUSH1 0x0 RETURN STOP PUSH1 0x80 PUSH1 0x40 MSTORE PUSH1 0x4 CALLDATASIZE LT PUSH1 0x3F JUMPI PUSH1 0x0 CALLDATALOAD PUSH29 0x100000000000000000000000000000000000000000000000000000000 SWAP1 DIV PUSH4 0xFFFFFFFF AND DUP1 PUSH4 0x60FE47B1 EQ PUSH1 0x44 JUMPI JUMPDEST PUSH1 0x0 DUP1 REVERT JUMPDEST CALLVALUE DUP1 ISZERO PUSH1 0x4F JUMPI PUSH1 0x0 DUP1 REVERT JUMPDEST POP PUSH1 0x6C PUSH1 0x4 DUP1 CALLDATASIZE SUB DUP2 ADD SWAP1 DUP1 DUP1 CALLDATALOAD SWAP1 PUSH1 0x20 ADD SWAP1 SWAP3 SWAP2 SWAP1 POP POP POP PUSH1 0x6E JUMP JUMPDEST STOP JUMPDEST DUP1 PUSH1 0x0 DUP2 SWAP1 SSTORE POP POP JUMP STOP LOG1 PUSH6 0x627A7A723058 KECCAK256 DUP10 SWAP15 BALANCE 0xf8 0xaf 0x3f 0xd6 0xe5 LOG0 0xd 0x3f 0xb2 SLT XOR 0xd2 0x24 0xd9 LOG2 PUSH17 0xCEF8EEEF3867AAF39BEBAF8F5A00290000 ",
+"sourceMap": "28:106:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;28:106:0;;;;;;;"
+}
+bytecode
+abi = [
+{
+"constant": false,
+"inputs": [
+{
+"name": "x",
+"type": "uint256"
+}
+],
+"name": "set",
+"outputs": [],
+"payable": false,
+"stateMutability": "nonpayable",
+"type": "function"
+}
+]
+admin.peers
+nrt
+net
+eth.accounts
+eth.getBalance(eth.coinbase)
+eth.getBalance("0x1b169c54e4dfffbe750d1ceb0800326a40d0a8e1")
+eth.getBalance(eth.coinbase)
+eth.accounts
+eth.getBalance(eth.coinbase)
+eth.getTransaction("0x9a7e8f6764c46a0f9c5e86331c364fa1a908e3c091e63e7122af405a4be079100x9a7e8f6764c46a0f9c5e86331c364fa1a908e3c091e63e7122af405a4be07910")
+eth.getTransaction("0x9a7e8f6764c46a0f9c5e86331c364fa1a908e3c091e63e7122af405a4be07910")
+web3.fromWei(eth.getBalance(eth.accounts[0]),'ether')
+eth.getBalance("0x4616353a4cd210c61307efda437ca2dfb8fdb210")
+eth.accounts
+eth.sendTransaction({from : eth.coinbase,to:eth.accounts[1],value : web3.toWei(100,"ether")})
+web3.fromWei(eth.getBalance(eth.accounts[1]))
+web3.fromWei(eth.getBalance(eth.accounts[0]))
+eth.sendTransaction({from : eth.accounts[1],to : "0x6ce48c6404887d328bb0ab891283ea22cbbef309", value : web3.toWei(100,"ether")})
+web.fromWei(eth.getBalance(eth.accounts[1]))
+web3.from
+web3.fromWei(eth.getBalance(eth.accounts[1]))
+eth.getBalance(eth.accounts[1])
+eth.sendTransaction({from : eth.coinbase,to:eth.accounts[1],value : web3.toWei(10000000000,"ether")})
+eth.getBalance(eth.accounts[1])
+web3.fromWei(eth.getBalance(eth.accounts[1]))
+eth.getBalance(eth.accounts[0])
+eth.getBalance(eth.accounts[0])eth.getBalance(eth.accounts[0])eth.getBalance(eth.accounts[0])eth.getBalance(eth.accounts[0])eth.getBalance(eth.accounts[0])
+web3.fromWei(eth.getBalance(eth.accounts[0]))
+eth.coinbase
+clique.propos("0x1b169c54e4dfffbe750d1ceb0800326a40d0a8e1",true)
+clique.propose("0x1b169c54e4dfffbe750d1ceb0800326a40d0a8e1",true)
+clique.propose("0x1b169c54e4dfffbe750d1ceb0800326a40d0a8e1",false)
+miner.start()
+miner.start(1)
+clique.discard("0x1b169c54e4dfffbe750d1ceb0800326a40d0a8e1")
+eth.blockNumber
+clique.getSnapshot(5614)
+clique.getSnapshot(1)
+clique.getSnapshot(2)
+clique.getSnapshot(3000)
+clique.getSnapshot(4000)
+clique.getSnapshot(5000)
+clique.getSnapshot(5500)
+eth.blockNumber
+clique.getSnapshot(5600)
+clique.getSigners()
+clique.status()
+clique.discard("0x1b169c54e4dfffbe750d1ceb0800326a40d0a8e1")
+clique.getSigners()
+clique.propose("0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389")
+clique.propose("0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389",true)
+clique.getSigners()
+clique.proposals
+clique.discard(0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389)
+clique.discard("0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389")
+clique.proposals
+clique.getSigners()
+clique.discard("0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389")
+clique.getSigners()
+clique.getSnapshot
+clique.getSnapshot()
+clique.Proposals
+clique.getProposals
+clique.getProposals()
+clique.proposals
+eth.co
+eth.coinbase
+clique.discard("0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389")
+miner.start()
+eth.blockNumber
+clique.getSigners
+clique.getSigners()
+eth.blockNumber
+clique.discard("0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389")
+clique.proposals
+clique.propose("0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389",false)
+clique.proposals
+eth.blockNumber
+clique.proposals
+clique.getSigners()
+eth.accounts
+web3.fromWei(eth.getBalance(eth.accounts[1]),"ether")
+eth.sendTransaction({from : eth.accounts[0],to : "0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389",value : web3.fromWei("1000","ether")})
+eth.sendTransaction({from : eth.accounts[0],to : "0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389",value : web3.fromWei(5,"ether")})
+eth.sendTransaction({from : eth.accounts[0], to : "0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389" , value : web3.toWei(5,"ether")})
+clique.getSigners()
+eth.blockNumber
+clique.propose("0xD4af160115aD2Cfc4fBB1a4F64cB92F57f03F389",true)
+clique.proposals
+clique.getSigners()
+miner.start
+miner.start()
+eth.blockNumber
+clique.proposals
+clique.getSigners()
+eth.blockNumber
+miner.stop()
+eth.blockNumber
+qqqq
+clique.proposals
+clique.getSigners()
+clique.propose("0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389",false)
+clique.proposals
+miner.start()
+eth.blockNumber
+clique.proposals
+clique.getSigners()
+clique.getSnapshot()
+eth.sendTransaction({from : eth.accounts[0],to : "0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389",value : web3.fromWei("1000","ether")})
+eth.sendTransaction({from : eth.accounts[0], to : "0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389" , value : web3.toWei(5,"ether")})
+eth.sendTransaction({from : eth.accounts[0], to : "0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389" , value : web3.toWei(50,"ether")})
+eth.blockNumber
+clique.getSigners()
+rawTx.v
+eth.getTransaction("0x45d2eed03fcee4c9b64dc0207ddbcad3eeb1139efb795ffe52731aa3090935a1")
+miner.start))
+miner.start()
+clique.getSigners()
+eth.blockNumber
+miner.start()
+miner.stop()
+clique.getSigners()
+eth.sendTransaction({from : eth.accounts[0], to : "0xd4af160115ad2cfc4fbb1a4f64cb92f57f03f389" , value : web3.toWei(50,"ether")})
