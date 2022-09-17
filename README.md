@@ -1,8 +1,9 @@
 # Ethereum Private Chain
 
 參考資料：
-
-- [Web Dev Simplified](https://www.youtube.com/watch?v=DZBGEVgL2eE)
+- https://blog.ippon.tech/monitoring-the-ethereum-blockchain/
+- https://github.com/cubedro/eth-netstats
+- https://github.com/cubedro/eth-net-intelligence-api
 
 ```
 npm install -g grunt-cli
