@@ -2,9 +2,7 @@
 
 參考資料：
 
-- https://blog.ippon.tech/monitoring-the-ethereum-blockchain/
-- https://github.com/cubedro/eth-netstats
-- https://github.com/cubedro/eth-net-intelligence-api
+- [Kyle](https://www.youtube.com/watch?v=DZBGEVgL2eE)
 
 ```
 npm install -g grunt-cli
